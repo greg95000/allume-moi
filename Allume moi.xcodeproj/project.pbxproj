@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		591780B229E608A1005793FD /* Allume_moiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591780B129E608A1005793FD /* Allume_moiApp.swift */; };
+		591780B429E608A1005793FD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591780B329E608A1005793FD /* MainView.swift */; };
+		591780B629E608A1005793FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591780B529E608A1005793FD /* Assets.xcassets */; };
+		591780B929E608A1005793FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591780B829E608A1005793FD /* Preview Assets.xcassets */; };
+		591780C129E60975005793FD /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591780C029E60975005793FD /* HttpService.swift */; };
+		591BFA6529EDE886007658B9 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 591BFA6429EDE886007658B9 /* Documentation.docc */; };
+		5932A5C429E72A44007A8533 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932A5C329E72A44007A8533 /* AboutView.swift */; };
+		5932A5C629E72DF4007A8533 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932A5C529E72DF4007A8533 /* LightView.swift */; };
+		5932A5C829E74055007A8533 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932A5C729E74055007A8533 /* LocationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		591780AE29E608A1005793FD /* Allume moi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Allume moi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591780B129E608A1005793FD /* Allume_moiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allume_moiApp.swift; sourceTree = "<group>"; };
+		591780B329E608A1005793FD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		591780B529E608A1005793FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		591780B829E608A1005793FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		591780C029E60975005793FD /* HttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		591BFA6429EDE886007658B9 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		5932A5C329E72A44007A8533 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		5932A5C529E72DF4007A8533 /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
+		5932A5C729E74055007A8533 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		5932A5C929E753AE007A8533 /* Allume-moi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Allume-moi-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		591780AB29E608A1005793FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		591780A529E608A1005793FD = {
+			isa = PBXGroup;
+			children = (
+				591780B029E608A1005793FD /* Allume moi */,
+				591780AF29E608A1005793FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		591780AF29E608A1005793FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				591780AE29E608A1005793FD /* Allume moi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		591780B029E608A1005793FD /* Allume moi */ = {
+			isa = PBXGroup;
+			children = (
+				5932A5C929E753AE007A8533 /* Allume-moi-Info.plist */,
+				5932A5C229E72997007A8533 /* views */,
+				591780BF29E60975005793FD /* services */,
+				591780B129E608A1005793FD /* Allume_moiApp.swift */,
+				591780B529E608A1005793FD /* Assets.xcassets */,
+				591780B729E608A1005793FD /* Preview Content */,
+				591BFA6429EDE886007658B9 /* Documentation.docc */,
+			);
+			path = "Allume moi";
+			sourceTree = "<group>";
+		};
+		591780B729E608A1005793FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				591780B829E608A1005793FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		591780BF29E60975005793FD /* services */ = {
+			isa = PBXGroup;
+			children = (
+				591780C029E60975005793FD /* HttpService.swift */,
+				5932A5C729E74055007A8533 /* LocationService.swift */,
+			);
+			path = services;
+			sourceTree = SOURCE_ROOT;
+		};
+		5932A5C229E72997007A8533 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				591780B329E608A1005793FD /* MainView.swift */,
+				5932A5C329E72A44007A8533 /* AboutView.swift */,
+				5932A5C529E72DF4007A8533 /* LightView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		591780AD29E608A1005793FD /* Allume moi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591780BC29E608A1005793FD /* Build configuration list for PBXNativeTarget "Allume moi" */;
+			buildPhases = (
+				591780AA29E608A1005793FD /* Sources */,
+				591780AB29E608A1005793FD /* Frameworks */,
+				591780AC29E608A1005793FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Allume moi";
+			productName = "Allume moi";
+			productReference = 591780AE29E608A1005793FD /* Allume moi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		591780A629E608A1005793FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					591780AD29E608A1005793FD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 591780A929E608A1005793FD /* Build configuration list for PBXProject "Allume moi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 591780A529E608A1005793FD;
+			productRefGroup = 591780AF29E608A1005793FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				591780AD29E608A1005793FD /* Allume moi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		591780AC29E608A1005793FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591780B929E608A1005793FD /* Preview Assets.xcassets in Resources */,
+				591780B629E608A1005793FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591780AA29E608A1005793FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5932A5C429E72A44007A8533 /* AboutView.swift in Sources */,
+				5932A5C629E72DF4007A8533 /* LightView.swift in Sources */,
+				591BFA6529EDE886007658B9 /* Documentation.docc in Sources */,
+				591780B429E608A1005793FD /* MainView.swift in Sources */,
+				591780B229E608A1005793FD /* Allume_moiApp.swift in Sources */,
+				5932A5C829E74055007A8533 /* LocationService.swift in Sources */,
+				591780C129E60975005793FD /* HttpService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		591780BA29E608A1005793FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		591780BB29E608A1005793FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		591780BD29E608A1005793FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Allume moi/Preview Content\"";
+				DEVELOPMENT_TEAM = B4J82G22QP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Allume-moi-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Allume moi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "L'application a besoin de la geolocalisation pour allumer les lumières de la ville";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'application a besoin de la geolocalisation pour allumer les lumières de la ville";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmasson.Allume-moi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		591780BE29E608A1005793FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Allume moi/Preview Content\"";
+				DEVELOPMENT_TEAM = B4J82G22QP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Allume-moi-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Allume moi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "L'application a besoin de la geolocalisation pour allumer les lumières de la ville";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'application a besoin de la geolocalisation pour allumer les lumières de la ville";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmasson.Allume-moi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		591780A929E608A1005793FD /* Build configuration list for PBXProject "Allume moi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591780BA29E608A1005793FD /* Debug */,
+				591780BB29E608A1005793FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591780BC29E608A1005793FD /* Build configuration list for PBXNativeTarget "Allume moi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591780BD29E608A1005793FD /* Debug */,
+				591780BE29E608A1005793FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 591780A629E608A1005793FD /* Project object */;
+}
